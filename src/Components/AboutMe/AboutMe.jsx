@@ -14,28 +14,28 @@ import { Button } from "flowbite-react";
 
 const AboutMe = () => {
   return  (
-    <div className="mb-20 lg:px-10">
-      <div className="flex w-full">
+    <div className="mb-10 lg:mb-20 px-2 lg:px-10">
+      <div className="flex flex-col lg:flex-row w-full gap-10 lg:gap-0">
         <div className="flex-1 flex justify-center items-center">
           <Swiper
             effect={"cards"}
             grabCursor={true}
             modules={[EffectCards]}
-            className="mySwiper w-80 rounded-2xl"
+            className="mySwiper w-full lg:w-80 rounded-2xl"
           >
-            <SwiperSlide className="w-80 h-96">
+            <SwiperSlide className="w-full lg:w-80 h-96">
               <Image
                 src="/sojib-2.jpg"
-                className="w-80 h-96 rounded-2xl border-[#0788FF] border-4"
+                className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
                 width={600}
                 alt="linkdin"
               />
             </SwiperSlide>
-            <SwiperSlide className="w-80 h-96">
+            <SwiperSlide className="w-full lg:w-80 h-96">
               <Image
                 src="/sojib-3.jpg"
-                className="w-80 h-96 rounded-2xl border-[#0788FF] border-4"
+                className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
                 width={600}
                 alt="linkdin"
@@ -43,7 +43,7 @@ const AboutMe = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="flex-1 border-l-2 border-[#0788FF] pl-12">
+        <div className="flex-1 lg:border-l-2 lg:border-[#0788FF] lg:pl-12">
           <h1 className="text-4xl font-medium text-white">
           {" Hi There! I'm Sajadur Rahman"}
           </h1>

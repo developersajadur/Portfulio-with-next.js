@@ -13,10 +13,10 @@ body {
 --tw-bg-opacity: 1;
 }
 
-/* 
+
 .focus\:ring-cyan-300:focus {
   --tw-ring-opacity: 0 !important;
-} */
+}
 
 
 .keen-slider {
@@ -30,5 +30,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100; /* Ensures each slide can shrink to fit content */
+  min-width: 100;
 }

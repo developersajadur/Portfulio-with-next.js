@@ -16,7 +16,7 @@ const Skills = () => {
     });
 
     return (
-        <div ref={sliderRef} className="keen-slider bg-[#0C1324] py-4 lg:px-10 -mt-10 mb-20">
+        <div ref={sliderRef} className="keen-slider bg-[#0C1324] py-4 px-2 lg:px-10 -mt-5 lg:-mt-10 mb-5 lg:mb-20">
             <div className="keen-slider__slide number-slide1">
                 <Image
                     src="/javascript.png"

@@ -6,10 +6,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
-    <div className="lg:px-10 ">
+    <div className="px-2 md:px-5 lg:px-10 ">
       <div className="flex flex-col md:flex-row items-center">
         <div className="flex-1 flex flex-col items-center md:items-start justify-center mb-8 md:mb-0">
-        <h1 className="text-5xl font-bold uppercase text-white mt-4">
+        <h1 className="text-3xl lg:text-5xl font-bold uppercase text-white mt-4">
            {" hey! I'm"} <br /> <span className=""> sajadur rahman</span>
           </h1>
           <TypeAnimation
@@ -23,7 +23,7 @@ const Banner = () => {
             speed={10}
             cursor={true}
             repeat={Infinity}
-            style={{ fontSize: "2em", fontWeight: "bold", display: "inline-block", color: "#0788FF", textTransform: "uppercase" }}
+             className="font-bold text-[#0788FF] uppercase inline-block text-xl md:text-2xl lg:text-3xl"
           />
           <div className="mt-8">
             <p className="text-[#8FA3B8] text-base font-medium">
@@ -33,7 +33,7 @@ const Banner = () => {
           <div className="mt-8">
             <div className="flex gap-8 items-center">
             <div className="">
-                <Button className="bg-[#0788FF] hover:bg-[#0788FF] text-xl px-2 py-2">GET IN TOUCH</Button>
+                <Button className="bg-[#0788FF] hover:bg-[#0788FF] text-xl lg:px-2 lg:py-2">GET IN TOUCH</Button>
             </div>
             <div className="flex items-center gap-2">
             <Image
