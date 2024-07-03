@@ -35,9 +35,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex flex-col-reverse lg:flex-row bg-[#083660] px-2 lg:px-0 pb-10 rounded-b-xl">
-          <div className="w-full lg:w-[30%] mt-8 lg:mt-40 lg:ml-9 flex flex-col justify-center items-center">
+          <div className="w-full lg:w-[30%] mt-8 lg:mt-40 lg:ml-9 flex flex-col justify-center lg:justify-start items-center lg:items-start">
             <div className="mb-4">
-              <p className="text-[#748195] text-center text-lg">Contact im With Email</p>
+              <p className="text-[#748195] text-center lg:text-start text-lg">Contact im With Email</p>
               <h2 className="text-white font-semibold text-2xl">
                 itzmesojib@gmail.com
               </h2>

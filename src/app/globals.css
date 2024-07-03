@@ -3,11 +3,11 @@
 @import 'tailwindcss/utilities';
 @import 'flowbite';
 
-/* 
-body {
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
---tw-bg-opacity: 1;
-} */
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background-color: #070D1B;
 --tw-bg-opacity: 1;
