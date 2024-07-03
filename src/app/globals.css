@@ -1,8 +1,11 @@
-@import 'tailwindcss/base';
+/* @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import 'flowbite';
+@import 'flowbite'; */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* 
 body {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -13,26 +16,11 @@ body {
 --tw-bg-opacity: 1;
 }
 
-
+/* 
 .focus\:ring-cyan-300:focus {
   --tw-ring-opacity: 0 !important;
-}
-
-
-/* rooted image */
-/* #rotating-img {
-  width:100%;
-  height: 100%;
-  background: url('/rotating.png');
-}
-
-.rotating {
-  -webkit-transform: rotate(360deg);
-  -webkit-transition-duration: 1s;
-  -webkit-transition-delay: now;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
 } */
+
 
 .keen-slider {
   position: relative;
