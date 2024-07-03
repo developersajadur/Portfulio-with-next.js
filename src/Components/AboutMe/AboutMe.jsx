@@ -45,7 +45,7 @@ const AboutMe = () => {
         </div>
         <div className="flex-1 border-l-2 border-[#0788FF] pl-12">
           <h1 className="text-4xl font-medium text-white">
-            Hi There! I'm Sajadur Rahman
+          {" Hi There! I'm Sajadur Rahman"}
           </h1>
           <h3 className="text-2xl font-medium text-[#0788FF] mt-3">
             Front End Web Developer

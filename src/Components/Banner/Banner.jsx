@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="flex flex-col md:flex-row items-center">
         <div className="flex-1 flex flex-col items-center md:items-start justify-center mb-8 md:mb-0">
         <h1 className="text-5xl font-bold uppercase text-white mt-4">
-            hey! I'm <br /> <span className=""> sajadur rahman</span>
+           {" hey! I'm"} <br /> <span className=""> sajadur rahman</span>
           </h1>
           <TypeAnimation
             sequence={[
