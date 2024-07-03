@@ -12,19 +12,19 @@ const Contact = () => {
 
   const onSubmit = (data) => console.log(data);
   return (
-    <div className="px-2 lg:px-10 mb-20">
+    <div id="contact" className="px-2 lg:px-10 mb-20">
       <div className="flex flex-col">
         <div className="bg-[#051A2F] flex py-8 rounded-t-xl">
-          <div className="w-full lg:w-[30%] lg:relative">
+          <div className="w-full lg:w-[30%] hidden lg:block lg:relative">
             <Image
               src="/hand.png"
-              className="w-72 h-64 rounded-2xl lg:absolute right-8"
+              className="w-72 h-64 rounded-2xl hidden lg:block lg:absolute right-8"
               height={600}
               width={600}
               alt="hand shank"
             />
           </div>
-          <div className="w-full lg:w-[70%] flex flex-1 flex-col">
+          <div className="w-full lg:w-[70%] flex flex-1 flex-col text-center lg:text-start">
             <h1 className="text-white font-medium text-2xl lg:text-5xl">
              {" Let’s Discuss"}
             </h1>
@@ -34,10 +34,10 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="flex bg-[#083660] pb-10 rounded-b-xl">
-          <div className="w-full lg:w-[30%] lg:mt-40 ml-9">
+        <div className="flex flex-col-reverse lg:flex-row bg-[#083660] px-2 lg:px-0 pb-10 rounded-b-xl">
+          <div className="w-full lg:w-[30%] mt-8 lg:mt-40 lg:ml-9 flex flex-col justify-center items-center">
             <div className="mb-4">
-              <p className="text-[#748195] text-lg">Contact im With Email</p>
+              <p className="text-[#748195] text-center text-lg">Contact im With Email</p>
               <h2 className="text-white font-semibold text-2xl">
                 itzmesojib@gmail.com
               </h2>
@@ -48,7 +48,7 @@ const Contact = () => {
                 +8801787448412
               </h2>
             </div>
-            <div className="flex gap-5 items-center mt-8">
+            <div className="flex flex-col lg:flex-row gap-5 justify-center items-center mt-8">
               <div className="">
                 <button
                   type="submit"
@@ -82,9 +82,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-[70%] text-start lg:mr-10 mt-12">
+          <div className="w-full lg:w-[70%] text-start lg:mr-10 mt-5 lg:mt-12">
           <form className="w-full" onSubmit={handleSubmit(onSubmit)}>
-      <div className="w-full flex gap-8 items-center">
+      <div className="w-full flex flex-col lg:flex-row gap-6 lg:gap-8 items-center">
         <div className="w-full">
           <p className="text-[#748195] font-medium text-sm mb-2">YOUR NAME</p>
           <FloatingLabel
@@ -140,7 +140,7 @@ const Contact = () => {
       <div className="w-full mt-4">
         <button
           type="submit"
-          className="bg-[#0788FF] text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300"
+          className="bg-[#0788FF] w-full lg:w-fit text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300"
         >
           Send Message
         </button>

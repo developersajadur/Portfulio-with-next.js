@@ -21,11 +21,12 @@ const AboutMe = () => {
             effect={"cards"}
             grabCursor={true}
             modules={[EffectCards]}
-            className="mySwiper w-full lg:w-80 rounded-2xl"
+            className="mySwiper w-64 lg:w-80 rounded-2xl"
           >
             <SwiperSlide className="w-full lg:w-80 h-96">
               <Image
                 src="/sojib-2.jpg"
+                draggable="false"
                 className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
                 width={600}
