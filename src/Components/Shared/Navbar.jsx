@@ -19,7 +19,7 @@ const Header = () => {
     ];
 
     return (
-        <Navbar className='bg-[#0B1221] text-[#748195] py-5 z-20 lg:px-10'>
+        <Navbar className='bg-[#0B1221] text-[#748195] py-5 z-20 px-2 lg:px-10'>
             <NavbarBrand as={Link} href="/">
                 <span className="self-center whitespace-nowrap text-xl font-semibold">Sajadur Rahman</span>
             </NavbarBrand>

@@ -77,9 +77,14 @@ const AboutMe = () => {
 
               <span>Language</span>
               <span>:</span>
-              <span>Bangla, English</span>
+              <span>Bangla, English, Hindi</span>
             </div>
-            <Button className="bg-[#0788FF] hover:bg-[#0788FF] text-xl px-2 py-2 mt-5">Download CV</Button>
+            <button
+                  type="submit"
+                  className="bg-[#0788FF] text-sm mt-5 text-white py-3 px-5 rounded-lg hover:bg-blue-600 transition duration-300"
+                >
+                  DOWNLOAD CV
+                </button>
           </div>
         </div>
       </div>
