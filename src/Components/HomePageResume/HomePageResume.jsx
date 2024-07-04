@@ -14,7 +14,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const HomePageResume = () => {
   return (
-    <div className="px-2 lg:px-10">
+    <div id="resume" className="px-2 lg:px-10">
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1">
           <h1 className="text-3xl lg:text-4xl text-white font-medium flex gap-3 items-center mb-4">

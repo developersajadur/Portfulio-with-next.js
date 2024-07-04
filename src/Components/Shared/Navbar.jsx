@@ -9,8 +9,16 @@ const Header = () => {
             link: "/"
         },
         {
+            title: "Resume",
+            link: "#resume"
+        },
+        {
+            title: "Portfolio",
+            link: "#project"
+        },
+        {
             title: "About",
-            link: "/about"
+            link: "#about"
         },
         {
             title: "Contact",

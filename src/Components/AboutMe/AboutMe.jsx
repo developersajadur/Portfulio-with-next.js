@@ -19,7 +19,7 @@ const AboutMe = () => {
     window.open(CV, '_blank');
   }
   return  (
-    <div className="mb-10 lg:mb-20 px-2 lg:px-10">
+    <div id="about" className="mb-10 lg:mb-20 px-2 lg:px-10">
       <div className="flex flex-col lg:flex-row w-full gap-10 lg:gap-0">
         <div className="flex-1 flex justify-center items-center">
           <Swiper
@@ -30,12 +30,22 @@ const AboutMe = () => {
           >
             <SwiperSlide className="w-full lg:w-80 h-96">
               <Image
+                src="/sojib-4.jpg"
+                draggable="false"
+                className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
+                height={600}
+                width={600}
+                alt="sojib"
+              />
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:w-80 h-96">
+              <Image
                 src="/sojib-2.jpg"
                 draggable="false"
                 className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
                 width={600}
-                alt="linkdin"
+                alt="sojib"
               />
             </SwiperSlide>
             <SwiperSlide className="w-full lg:w-80 h-96">
@@ -44,7 +54,7 @@ const AboutMe = () => {
                 className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
                 width={600}
-                alt="linkdin"
+                alt="sojib"
               />
             </SwiperSlide>
           </Swiper>

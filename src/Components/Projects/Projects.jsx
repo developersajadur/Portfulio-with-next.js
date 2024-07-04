@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Projects = () => {
     return (
-        <div className='px-2 lg:px-10 mt-5 lg:mt-10 mb-5 lg:mb-20'>
+        <div id='project' className='px-2 lg:px-10 mt-5 lg:mt-10 mb-5 lg:mb-20'>
             <h1 className="text-2xl lg:text-4xl font-medium text-white text-start mb-10">RECENT PROJECT</h1>
             <Swiper
                 effect={'coverflow'}

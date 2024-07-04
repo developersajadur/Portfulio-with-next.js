@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div className="px-2 md:px-5 lg:px-10 ">
       <div className="flex flex-col md:flex-row items-center">
-        <div className="flex-1 flex flex-col items-center md:items-start justify-center mb-8 md:mb-0">
+        <div className="flex-1 flex flex-col items-center md:items-start justify-start lg:justify-center mb-8 md:mb-0">
           <h1 className="text-3xl lg:text-5xl font-bold uppercase text-white mt-4">
             {" hey! I'm"} <br /> <span className=""> sajadur rahman</span>
           </h1>
