@@ -46,6 +46,7 @@ const Banner = () => {
                 </button>
               </div>
               <div className="flex items-center gap-2">
+                <a href="https://www.facebook.com/developersajadur" target="_blank">
                 <Image
                   src="/facebook.png"
                   className="w-10 h-10 rounded-full border-2"
@@ -53,20 +54,25 @@ const Banner = () => {
                   width={600}
                   alt="facebook"
                 />
-                <Image
+                </a>
+             <a href="https://www.linkedin.com/in/sajadurrahman/" target="_blank">
+             <Image
                   src="/linkdin.png"
                   className="w-10 h-10 rounded-full border-2"
                   height={600}
                   width={600}
                   alt="linkdin"
                 />
-                <Image
+             </a>
+               <a href="https://github.com/developersajadur" target="_blank">
+               <Image
                   src="/github.png"
                   className="w-10 h-10 rounded-full border-2"
                   height={600}
                   width={600}
                   alt="github"
                 />
+               </a>
               </div>
             </div>
           </div>

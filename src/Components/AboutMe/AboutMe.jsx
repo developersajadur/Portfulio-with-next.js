@@ -12,7 +12,12 @@ import { EffectCards } from "swiper/modules";
 import Image from "next/image";
 import { Button } from "flowbite-react";
 
+const CV = "https://drive.google.com/file/d/1x5NKeQASZ5sz18TGJasMYFFfUq_zzD-p/view?usp=sharing"
+
 const AboutMe = () => {
+  const handleDownload = () => {
+    window.open(CV, '_blank');
+  }
   return  (
     <div className="mb-10 lg:mb-20 px-2 lg:px-10">
       <div className="flex flex-col lg:flex-row w-full gap-10 lg:gap-0">
@@ -81,6 +86,7 @@ const AboutMe = () => {
               <span>Bangla, English, Hindi</span>
             </div>
             <button
+            onClick={handleDownload}
                   type="submit"
                   className="bg-[#0788FF] text-sm mt-5 text-white py-3 px-5 rounded-lg hover:bg-blue-600 transition duration-300"
                 >

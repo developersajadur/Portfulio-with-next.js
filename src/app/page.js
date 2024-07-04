@@ -15,8 +15,8 @@ const page = () => {
       <Skills></Skills>
       <AboutMe></AboutMe>
       <HomePageResume></HomePageResume>
-      <Contact></Contact>
       <Projects></Projects>
+      <Contact></Contact>
     </div>
   );
 };
