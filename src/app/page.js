@@ -5,20 +5,18 @@ import Contact from '@/Components/Contact/Contact';
 import HomePageResume from '@/Components/HomePageResume/HomePageResume';
 import Projects from '@/Components/Projects/Projects';
 import Skills from '@/Components/Skills/Skills';
-import { Button } from 'flowbite-react';
 import React from 'react';
-
-const page = () => {
+const Page = () => {
   return (
     <div>
-      <Banner></Banner>
-      <Skills></Skills>
-      <AboutMe></AboutMe>
-      <HomePageResume></HomePageResume>
-      <Projects></Projects>
-      <Contact></Contact>
+      <Banner />
+      <Skills />
+      <AboutMe />
+      <HomePageResume />
+      <Projects />
+      <Contact />
     </div>
   );
 };
 
-export default page;
+export default Page;
