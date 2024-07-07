@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
@@ -24,7 +25,13 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert('Message sent successfully!');
+          Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Thanks For Contact Me",
+            showConfirmButton: false,
+            timer: 2500
+          });
         },
         (error) => {
           alert('Failed to send the message, please try again later.');
