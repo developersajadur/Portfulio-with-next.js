@@ -59,7 +59,7 @@ const Contact = () => {
               Let’s Discuss
             </h1>
             <p className="text-[#748195] text-lg">
-              I'm always open to new freelance opportunities. Reach out, let's discuss your project!
+             {" I'm always open to new freelance opportunities. Reach out, let's discuss your project!"}
             </p>
           </div>
         </div>
