@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@uiw/react-back-to-top": "^1.2.3",
     "emailjs-com": "^3.2.0",
     "flowbite-react": "^0.10.1",
     "keen-slider": "^6.8.6",

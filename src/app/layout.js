@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/Components/Shared/Navbar";
 import Footer from "@/Components/Shared/Footer";
 import AnimatedCursor from "react-animated-cursor";
+import BackToTopButton from "@/Tools/BackToTopButton";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -22,7 +23,8 @@ export default function RootLayout({ children }) {
         <div className="">
         <Navbar />
         {children}
-        <Footer></Footer>
+        <Footer/>
+        <BackToTopButton/>
         </div>
       </body>
     </html>
