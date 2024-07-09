@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@tsparticles/react": "^3.0.0",
     "@uiw/react-back-to-top": "^1.2.3",
     "emailjs-com": "^3.2.0",
     "flowbite-react": "^0.10.1",

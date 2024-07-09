@@ -12,7 +12,7 @@ import { EffectCards } from "swiper/modules";
 import Image from "next/image";
 import { Button } from "flowbite-react";
 
-const CV = "https://drive.google.com/file/d/1x5NKeQASZ5sz18TGJasMYFFfUq_zzD-p/view?usp=sharing"
+const CV = "https://drive.google.com/file/d/1izgk17BQveMLL_VfeIvyTymEC6IdO4vy/view?usp=sharing"
 
 const AboutMe = () => {
   const handleDownload = () => {
