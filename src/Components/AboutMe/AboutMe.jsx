@@ -10,7 +10,6 @@ import "swiper/css/effect-cards";
 // import required modules
 import { EffectCards } from "swiper/modules";
 import Image from "next/image";
-import { Button } from "flowbite-react";
 
 const CV = "https://drive.google.com/file/d/1izgk17BQveMLL_VfeIvyTymEC6IdO4vy/view?usp=sharing"
 
