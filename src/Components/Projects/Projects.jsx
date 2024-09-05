@@ -19,13 +19,13 @@ const Projects = () => {
     };
 
     return (
-        <div id='project' className='px-2 lg:px-10 mt-5 lg:mt-10 mb-5 lg:mb-20'>
+        <div id='project' className='px-4 lg:px-10 mt-5 lg:mt-10 mb-5 lg:mb-20'>
             <h1 className="text-2xl lg:text-4xl font-medium text-white text-start mb-10">RECENT PROJECT</h1>
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={true}
-                slidesPerView={3}
+                slidesPerView={1} // Default to 1 slide per view on small screens
                 loop={true}
                 coverflowEffect={{
                     rotate: 0,
@@ -41,13 +41,16 @@ const Projects = () => {
                 modules={[EffectCoverflow, Autoplay]}
                 className="mySwiper"
                 breakpoints={{
-                    440: {
+                    320: { // Extra small screens
                         slidesPerView: 1,
                     },
-                    768: {
+                    640: { // Small screens
+                        slidesPerView: 1,
+                    },
+                    768: { // Medium screens
                         slidesPerView: 2,
                     },
-                    1024: {
+                    1024: { // Large screens
                         slidesPerView: 3,
                     },
                 }}
@@ -55,27 +58,20 @@ const Projects = () => {
                 {['/project-1.png', '/project-2.png', '/project-3.png', '/project-4.png'].map((src, index) => (
                     <SwiperSlide
                         key={index}
-                        className='swiper-slide h-96 relative'
+                        className='swiper-slide h-72 md:h-96 relative'
                         onMouseEnter={() => handleMouseEnter(index)}
                         onMouseLeave={handleMouseLeave}
                     >
-                        <div className={`image-wrapper screen h-96 ${hoveredSlide === index ? 'blur-sm' : ''}`}>
+                        <div className='image-wrapper screen rounded-xl w-full md:w-[300px] h-[300px] lg:w-[350px] md:h-[350px] lg:h-[400px]'>
                             <Image 
                                 src={src}
                                 alt={`Project ${index + 1}`} 
                                 width={600}
-                                height={1210}  
+                                height={400}  
                                 layout="responsive"
-                                className="rounded-lg"
+                                className="rounded-xl"
                             />
                         </div>
-                        {hoveredSlide === index && (
-                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
-                                <a href="#" className="text-white mb-2">Live Link</a>
-                                <a href="#" className="text-white mb-2">Client GitHub Link</a>
-                                <a href="#" className="text-white">Server GitHub Link</a>
-                            </div>
-                        )}
                     </SwiperSlide>
                 ))}
             </Swiper>

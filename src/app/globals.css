@@ -38,8 +38,6 @@ body {
 /* Container styling */
 .image-wrapper {
   position: relative;
-  width: 350px; /* Adjust according to your layout */
-  height: 400px; /* Adjust according to your layout */
   overflow: hidden;
   border-radius: 4px;
   margin: 0 auto;
@@ -55,18 +53,6 @@ body {
 }
 
 .image-wrapper:hover img {
-  top: -860px; /* Adjust based on image height to reach the bottom */
+  top: -860px; 
   transition: all 11s;
-}
-
-
-/* Blur effect for the image on hover */
-.image-wrapper.blur-sm {
-  filter: blur(5px); /* Adjust blur intensity */
-  transition: filter 0.3s ease-in-out;
-}
-
-/* Overlay styling */
-.swiper-slide .absolute {
-  transition: opacity 0.3s ease-in-out;
 }
