@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@tanstack/react-query": "^5.55.0",
     "@tsparticles/react": "^3.0.0",
     "@uiw/react-back-to-top": "^1.2.3",
+    "axios": "^1.7.7",
     "emailjs-com": "^3.2.0",
     "flowbite-react": "^0.10.1",
     "keen-slider": "^6.8.6",

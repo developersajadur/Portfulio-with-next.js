@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "image": "/Images/project-1.png",
+      "name": "Project 1"
+    },
+    {
+      "id": 2,
+      "image": "/Images/project-2.png",
+      "name": "Project 2"
+    },
+    {
+      "id": 3,
+      "image": "/Images/project-3.png",
+      "name": "Project 3"
+    },
+    {
+      "id": 4,
+      "image": "/Images/project-4.png",
+      "name": "Project 4"
+    }
+  ]
+  
