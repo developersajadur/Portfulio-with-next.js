@@ -29,7 +29,7 @@ const AboutMe = () => {
           >
             <SwiperSlide className="w-full lg:w-80 h-96">
               <Image
-                src="/sojib-4.jpg"
+                src="/Images/sojib-4.jpg"
                 draggable="false"
                 className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
@@ -39,7 +39,7 @@ const AboutMe = () => {
             </SwiperSlide>
             <SwiperSlide className="w-full lg:w-80 h-96">
               <Image
-                src="/sojib-2.jpg"
+                src="/Images/sojib-2.jpg"
                 draggable="false"
                 className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
@@ -49,7 +49,7 @@ const AboutMe = () => {
             </SwiperSlide>
             <SwiperSlide className="w-full lg:w-80 h-96">
               <Image
-                src="/sojib-3.jpg"
+                src="/Images/sojib-3.jpg"
                 className="w-full lg:w-80 h-96 rounded-2xl border-[#0788FF] border-4"
                 height={600}
                 width={600}

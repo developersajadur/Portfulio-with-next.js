@@ -19,7 +19,7 @@ const Skills = () => {
         <div ref={sliderRef} className="keen-slider bg-[#0C1324] py-4 px-2 lg:px-10 -mt-5 lg:-mt-10 mb-5 lg:mb-20">
             <div className="keen-slider__slide number-slide1">
                 <Image
-                    src="/javascript.png"
+                    src="/Images/javascript.png"
                     className="w-24 h-24"
                     height={40}
                     width={40}
@@ -28,7 +28,7 @@ const Skills = () => {
             </div>
             <div className="keen-slider__slide number-slide2">
                 <Image
-                    src="/react.png"
+                    src="/Images/react.png"
                     className="w-24 h-24"
                     height={40}
                     width={40}
@@ -37,7 +37,7 @@ const Skills = () => {
             </div>
             <div className="keen-slider__slide number-slide3">
                 <Image
-                    src="/node.png"
+                    src="/Images/node.png"
                      className="w-24 h-24"
                     height={40}
                     width={40}
@@ -46,7 +46,7 @@ const Skills = () => {
             </div>
             <div className="keen-slider__slide number-slide3">
                 <Image
-                    src="/mongodb.png"
+                    src="/Images/mongodb.png"
                      className="w-24 h-24"
                     height={40}
                     width={40}
@@ -55,7 +55,7 @@ const Skills = () => {
             </div>
             <div className="keen-slider__slide number-slide3">
                 <Image
-                    src="/firebase.png"
+                    src="/Images/firebase.png"
                     className="w-24 h-24"
                     height={40}
                     width={40}

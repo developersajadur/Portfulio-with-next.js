@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="bg-[#051A2F] flex py-8 rounded-t-xl">
           <div className="w-full lg:w-[30%] hidden lg:block lg:relative">
             <Image
-              src="/hand.png"
+              src="/Images/hand.png"
               className="w-72 h-64 rounded-2xl hidden lg:block lg:absolute right-8"
               height={600}
               width={600}
@@ -87,7 +87,7 @@ const Contact = () => {
               <div className="flex items-center gap-2">
                 <a href="https://www.facebook.com/developersajadur" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src="/facebook.png"
+                    src="/Images/facebook.png"
                     className="w-10 h-10 rounded-full border-2"
                     height={600}
                     width={600}
@@ -96,7 +96,7 @@ const Contact = () => {
                 </a>
                 <a href="https://www.linkedin.com/in/sajadurrahman/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src="/linkdin.png"
+                    src="/Images/linkdin.png"
                     className="w-10 h-10 rounded-full border-2"
                     height={600}
                     width={600}
@@ -105,7 +105,7 @@ const Contact = () => {
                 </a>
                 <a href="https://github.com/developersajadur" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src="/github.png"
+                    src="/Images/github.png"
                     className="w-10 h-10 rounded-full border-2"
                     height={600}
                     width={600}

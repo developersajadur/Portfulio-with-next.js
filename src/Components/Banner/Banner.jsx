@@ -48,7 +48,7 @@ const Banner = () => {
               <div className="flex items-center gap-2">
                 <a href="https://www.facebook.com/developersajadur" target="_blank">
                 <Image
-                  src="/facebook.png"
+                  src="/Images/facebook.png"
                   className="w-10 h-10 rounded-full border-2"
                   height={600}
                   width={600}
@@ -57,7 +57,7 @@ const Banner = () => {
                 </a>
              <a href="https://www.linkedin.com/in/sajadurrahman/" target="_blank">
              <Image
-                  src="/linkdin.png"
+                  src="/Images/linkdin.png"
                   className="w-10 h-10 rounded-full border-2"
                   height={600}
                   width={600}
@@ -66,7 +66,7 @@ const Banner = () => {
              </a>
                <a href="https://github.com/developersajadur" target="_blank">
                <Image
-                  src="/github.png"
+                  src="/Images/github.png"
                   className="w-10 h-10 rounded-full border-2"
                   height={600}
                   width={600}
@@ -82,7 +82,7 @@ const Banner = () => {
           className="rotating flex-1 flex justify-center md:justify-end"
         >
           <Image
-            src="/sojib-1.png"
+            src="/Images/sojib-1.png"
             className="w-full h-1/2"
             height={300}
             width={300}
